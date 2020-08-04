@@ -10,14 +10,19 @@ const App = ()=> {
     
   },[pdf])
 
-  const getpdf = async () =>{
-    const response = await fetch(
-      `http://worldtpm.dx.am/api/test_api.php`
-    );
-    const data = await response.json();
-    setpdf(data.pdf);
-    console.log(pdf);
+  //This is the code for connecting pdf from api
+  // const getpdf = async () =>{
+  //   const response = await fetch(
+  //     `http://worldtpm.dx.am/api/test_api.php`
+  //   );
+  //   const data = await response.json();
+  //   setpdf(data.pdf);
+  //   console.log(pdf);
    
+  // }
+
+  const getpdf = () =>{
+    setpdf("http:\/\/worldtpm.dx.am\/api\/certificates\/test_pdf.pdf")
   }
 
   const openpdf = e =>{
