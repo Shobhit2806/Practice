@@ -1,0 +1,15 @@
+p{
+    user-select: none;
+    margin-left: 400px;
+    position: relative;
+}
+.buttonc{
+    position: absolute;
+    margin-left: 300px;
+    
+}
+.pagec{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -30px;
+}
