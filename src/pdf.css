@@ -3,6 +3,7 @@
     margin-left: 400px;
     position: relative;
     max-width: 100%;
+    
 }
 .buttonc{
     position: absolute;
@@ -21,6 +22,7 @@
 {
     .main{
         margin-left:0px ;
+        
     }
     .Pre{
         color: green;

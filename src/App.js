@@ -20,8 +20,7 @@ const App = ()=> {
  
   return (
     <div className="App">
-      
-      
+     
       <Router>
           <Switch>
           <Route path='/' exact component={Landing} />
