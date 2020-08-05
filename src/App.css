@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+/* @media screen and (max-width:1200px)
+{
+    .main{
+        margin-left:100px ;
+    }
+    .Pre{
+        color: green;
+    }
+    .buttonc{
+        position: absolute;
+        margin-left: 250px;
+        margin-top: 10px;
+    }
+    .pagec{
+        margin-left: 270px;
+    }
+} */

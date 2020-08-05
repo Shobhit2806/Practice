@@ -33,7 +33,7 @@ export default function Test() {
 
   return (
     <>
-    <p>
+    <div className="main">
       <Document
         file={url}
         onLoadSuccess={onDocumentLoadSuccess}
@@ -49,6 +49,7 @@ export default function Test() {
           type="button"
           disabled={pageNumber <= 1}
           onClick={previousPage}
+          className="Pre"
           
         >
           Previous
@@ -63,7 +64,7 @@ export default function Test() {
         </button>
         </div>
       </div>
-      </p>
+      </div>
     </>
   );
 }
