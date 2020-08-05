@@ -9,7 +9,11 @@ import './App.css';
 import Pdf from './Pdf'
 import Landing from './Landing'
 const App = ()=> {
-
+  window.addEventListener("keyup", function(e) {
+    if (e.keyCode == 44) {
+      alert("The 'print screen' key is pressed");
+    }
+  });
   
 
  
