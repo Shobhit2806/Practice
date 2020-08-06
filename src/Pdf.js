@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Document, Page,pdfjs } from 'react-pdf';
 import './pdf.css'
+  
 
-const url = "https://cors-anywhere.herokuapp.com/http://www.pdf995.com/samples/pdf.pdf"
+//const url = process.env.REACT_APP_URL
 
 export default function Test() {
     
@@ -34,8 +35,9 @@ export default function Test() {
   return (
     <>
     <div className="main">
+    {/* const url = "https://cors-anywhere.herokuapp.com/http://www.pdf995.com/samples/pdf.pdf" */}
       <Document
-        file={url}
+        file="https://cors-anywhere.herokuapp.com/http://www.pdf995.com/samples/pdf.pdf"
         onLoadSuccess={onDocumentLoadSuccess}
       >
         <Page pageNumber={pageNumber} />
