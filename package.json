@@ -1,6 +1,10 @@
 {
   "name": "pdf",
   "version": "0.1.0",
+  "engines": {
+    "node":"10.x",
+    "npm":"6.14.4"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -11,6 +15,7 @@
     "react-pdf": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
+    
   },
   "scripts": {
     "start": "react-scripts start",
